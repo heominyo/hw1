@@ -1,0 +1,40 @@
+Homework 1:
+	Problem 1:
+		a) 
+			Acceptable:
+				1, 4, 5 (but be careful, take a break afterwards so it doesn't look the same)
+		b)
+			Acceptable:
+				2, 3, 4, 5
+		c)
+			1. False, it's 2 grace days allowed for each, 4 in total
+			2. False, it's 4 grace days, with 2 grace days each
+			3. False, it wil automatically be detected
+			4. True, it will automatically detect submissions
+		d) 4
+
+  Problem 2:
+		a) 
+			3
+		b)
+			git add hw1q2b.cpp
+			git log -3
+		c)
+			It will make a commit to the git repository. It kind of is like a checkpoint for your code, incase you messed up in the future and you need to backtrack. You can select the commit based on log.
+
+	Problem 3:
+	Problem 4:
+		on hw1p4.pdf
+		Each page is the after a function pops off a stack. For example, the func1 stack data when n == 0 is popped off and func2 is then called from the func1 stack when n == 1.
+		Reds are updates and changes from the very first page.
+		Therefore, mat will be 
+		{r1, r2, r3}
+		and r1 = [ 1, 2, 3, 4]
+		and r2 = [10, 6, 7, 8]
+		and r3 = [31,10,11,12]
+		Therefore, the deeper view of the 2d array mat is:
+		[[ 1, 2, 3, 4],
+		 [10, 6, 7, 8],
+		 [31,10,11,12]]
+
+	Problem 5:
